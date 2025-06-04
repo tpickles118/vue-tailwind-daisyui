@@ -7,6 +7,8 @@ import { eventTypes } from "./js/eventBus.js";
 import { useAppConfigStore } from "./stores/appConfigStore.js";
 import { onMounted, provide, ref } from "vue";
 
+import AlertTest from "./components/alertTest.vue";
+
 const appConfigStore = useAppConfigStore();
 
 const appEventBus = eventBus;
@@ -21,6 +23,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <navbar />
-  <example-no-inline :current-theme="appConfigStore.theme" />
+  <!-- <navbar /> -->
+  <!-- <example-no-inline :current-theme="appConfigStore.theme" /> -->
+
+  <alertTest />
 </template>
