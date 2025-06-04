@@ -16,5 +16,10 @@ import ToastBox from "./base/toast/ToastBox.vue";
     isDashed="true"
     isOutline="true"
   />
-  <ToastBox alertType="success" msg="This is a successful toast." />
+  <ToastBox
+    alertType="success"
+    msg="This is a successful toast."
+    toastVertical="top"
+    toastHorizontal="start"
+  />
 </template>
