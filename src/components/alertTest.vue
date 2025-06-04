@@ -1,5 +1,6 @@
 <script setup>
 import AlertBox from "./base/alert/AlertBox.vue";
+import ToastBox from "./base/toast/ToastBox.vue";
 </script>
 
 <template>
@@ -15,4 +16,5 @@ import AlertBox from "./base/alert/AlertBox.vue";
     isDashed="true"
     isOutline="true"
   />
+  <ToastBox alertType="success" msg="This is a successful toast." />
 </template>
