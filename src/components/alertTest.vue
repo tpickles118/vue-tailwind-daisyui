@@ -17,10 +17,9 @@ import ToastBox from "./base/toast/ToastBox.vue";
     isOutline="true"
   />
   <ToastBox
-    alertType="success"
-    msg="This is a successful toast."
+    alertType="error"
+    msg="This is a error toast."
     toastVertical="bottom"
     toastHorizontal="end"
-    duration="3600"
   />
 </template>

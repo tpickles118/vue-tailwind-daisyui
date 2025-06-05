@@ -89,6 +89,10 @@ const INJECTABLES = Object.freeze({
   APP_EVENT_BUS: "appEventBus",
 });
 
+const TOAST = Object.freeze({
+  DURATION: 3600,
+});
+
 export default {
   inputTypes,
   SVG_ICON_TYPES,
